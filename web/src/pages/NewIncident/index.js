@@ -32,7 +32,7 @@ export default function Register(){
                 },
             });
 
-            history.push('/profile')
+            history.push('/profile');
         }catch (err){
             alert('ERROR');
         }
